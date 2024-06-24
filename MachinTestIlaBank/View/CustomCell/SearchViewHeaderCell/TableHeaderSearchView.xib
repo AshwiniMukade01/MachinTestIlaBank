@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Udz-Qh-3qK" customClass="TableHeaderSearchView" customModule="MachineTestIlaBank" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9p-8e-uf1">
+                    <rect key="frame" x="0.0" y="0.0" width="288" height="60"/>
+                    <subviews>
+                        <searchBar clipsSubviews="YES" contentMode="redraw" placeholder="Search movie here" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEH-o7-jSV">
+                            <rect key="frame" x="10" y="10" width="268" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done" textContentType="name"/>
+                            <scopeButtonTitles>
+                                <string>Title</string>
+                                <string>Title</string>
+                            </scopeButtonTitles>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </searchBar>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="dEH-o7-jSV" firstAttribute="leading" secondItem="M9p-8e-uf1" secondAttribute="leading" constant="10" id="2y6-4F-h2u"/>
+                        <constraint firstAttribute="trailing" secondItem="dEH-o7-jSV" secondAttribute="trailing" constant="10" id="F09-RB-0tP"/>
+                        <constraint firstAttribute="bottom" secondItem="dEH-o7-jSV" secondAttribute="bottom" constant="10" id="HM3-yQ-Z0M"/>
+                        <constraint firstItem="dEH-o7-jSV" firstAttribute="top" secondItem="M9p-8e-uf1" secondAttribute="top" constant="10" id="lhr-fz-2Lv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="NFF-GT-JHM"/>
+            <constraints>
+                <constraint firstItem="M9p-8e-uf1" firstAttribute="leading" secondItem="Udz-Qh-3qK" secondAttribute="leading" id="7zw-sw-z8A"/>
+                <constraint firstItem="M9p-8e-uf1" firstAttribute="top" secondItem="Udz-Qh-3qK" secondAttribute="top" id="Stp-PJ-wFa"/>
+                <constraint firstAttribute="trailing" secondItem="M9p-8e-uf1" secondAttribute="trailing" id="mur-5p-dOF"/>
+                <constraint firstAttribute="bottom" secondItem="M9p-8e-uf1" secondAttribute="bottom" id="pmp-5x-gyi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchBar" destination="dEH-o7-jSV" id="qM0-Ri-uPd"/>
+            </connections>
+            <point key="canvasLocation" x="46.376811594202906" y="-82.366071428571431"/>
+        </view>
+    </objects>
+</document>

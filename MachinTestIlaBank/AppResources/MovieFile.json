@@ -1,0 +1,130 @@
+{
+    "movies": [
+        {
+            "name": "DC",
+            "image": "DC",
+            "movie_names": [
+                {
+                    "name": "Superman and the Mole Men",
+                    "image": "superman"
+                },
+                {
+                    "name": "Batman",
+                    "image": "batman"
+                },
+                {
+                    "name": "Aquaman and the Lost Kingdom",
+                    "image": "aquaman"
+                },
+                {
+                    "name": "Swamp Thing",
+                    "image": "swamp"
+                },
+                {
+                    "name": "Supergirl",
+                    "image": "supergirl"
+                },
+                {
+                    "name": "Superman IV: The Quest for Peace",
+                    "image": "superman"
+                },
+                {
+                    "name": "The Return of Swamp Thing",
+                    "image": "swamp"
+                },
+                {
+                    "name": "Batman Returns",
+                    "image": "batman"
+                },
+                {
+                    "name": "Batman Forever",
+                    "image": "batman"
+                },
+                {
+                    "name": "Justice League",
+                    "image": "league"
+                },
+                {
+                    "name": "Wonder Woman 1984",
+                    "image": "wonderw"
+                }
+            ]
+        },
+        {
+            "name": "Marvel",
+            "image": "marvel",
+            "movie_names": [
+                {
+                    "name": "Black Widow",
+                    "image": "blackwidow"
+                },
+                {
+                    "name": "Iron Man",
+                    "image": "ironman"
+                },
+                {
+                    "name": "Eternals",
+                    "image": "eternals"
+                },
+                {
+                    "name": "Spider-Man: No Way Home",
+                    "image": "spiderman"
+                },
+                {
+                    "name": "Doctor Strange in the Multiverse of Madness",
+                    "image": "drstrange"
+                },
+                {
+                    "name": "Thor: Love and Thunder",
+                    "image": "thor"
+                },
+                {
+                    "name": "Black Panther: Wakanda Forever",
+                    "image": "blackpanther"
+                },
+                {
+                    "name": "The Marvels",
+                    "image": "marvel"
+                },
+                {
+                    "name": "Deadpool & Wolverine",
+                    "image": "deadpool"
+                }
+            ]
+        },
+        {
+            "name": "Comedy",
+            "image": "comedyposter",
+            "movie_names": [
+                {
+                    "name": "Hit Man",
+                    "image": "comedy"
+                },
+                {
+                    "name": "Bad Boys: Ride or Die",
+                    "image": "comedy"
+                },
+                {
+                    "name": "Inside Out 2",
+                    "image": "comedy"
+                },
+                {
+                    "name": "The Fall Guy",
+                    "image": "comedy"
+                },
+                {
+                    "name": "Munjya",
+                    "image": "comedy"
+                },
+                {
+                    "name": "Deadpool & Wolverine",
+                    "image": "comedy"
+                },
+                {
+                    "name": "Anyone But You",
+                    "image": "comedy"
+                }
+            ]
+        }
+    ]
+}
